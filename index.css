@@ -1,0 +1,4 @@
+*{padding: 0px;margin: 0px;}
+nav{background-color: black;color: whitesmoke;height: 10vh;}
+nav ul{display: flex;flex-wrap: wrap;justify-content: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+nav ul li{list-style: none;padding-left: 10px;padding-right: 10px;}
