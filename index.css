@@ -3,6 +3,12 @@
     padding: 0px;
     margin: 0px;
     cursor: default;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url('/img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg');
+    background-position: center;
 }
 
 nav {
@@ -49,4 +55,38 @@ footer {
     color: white;
     width: 100%;
     padding-top: 1vw
+}
+
+#imgsrc {
+    width: 80vw;
+    height: 40vh;
+    text-align: center;
+}
+
+#imgsrc:hover {
+    color: black;
+    border: 10px black;
+    box-shadow: 4px 5px 10px 0px gray;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section div {
+    padding: 10px
+}
+
+section div:nth-child(odd) {
+    background-color: silver;
+    color: gray;
+    margin: 10px;
+}
+
+.slider {
+    position: absolute;
+    top: 1rem;
+    right: 2vw
 }

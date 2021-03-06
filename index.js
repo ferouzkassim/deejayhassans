@@ -1,11 +1,15 @@
 const footer = document.getElementsByTagName('footer'),
     header = document.getElementsByTagName('header'),
-    nav = document.getElementsByTagName('nav');
+    nav = document.querySelector('nav');
 const navbar = document.getElementById('nav'),
     heda = document.querySelector('header');
 fnav = () => {
     if (innerWidth <= 760) {
         navbar.children[0].style.display = 'none'
+        const slider = document.createElement('i')
+        nav.appendChild(slider)
+        slider.className = 'fas fa-menu-bar slider fa-3x'
+
     }
 };
 domloader = (name) => {
