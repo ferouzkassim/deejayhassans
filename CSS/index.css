@@ -1,0 +1,108 @@
+@import 'media.css';
+@import'/CSS/css/materialdesignicons.css';
+@import'/CSS/css/materialdesignicons.min.css';
+* {
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url('/img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg');
+    background-position: center;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    height: 10vh;
+    text-transform: capitalize;
+}
+
+body {
+    position: relative;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 2vh;
+}
+
+header div {
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+    color: wheat;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: silver;
+    height: 5vh;
+    top: 95vh;
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 1vw
+}
+
+#imgsrc {
+    width: 80vw;
+    height: 40vh;
+    text-align: center;
+}
+
+#imgsrc:hover {
+    color: black;
+    border: 10px black;
+    box-shadow: 4px 5px 10px 0px gray;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section div {
+    padding: 10px
+}
+
+#imgsrc {
+    background-color: silver;
+    color: gray;
+    margin: 10px;
+}
+
+.slider,
+.fa-angle-double-up {
+    position: absolute;
+    z-index: 12;
+    top: 3vh;
+    right: 2vw;
+    color: white;
+}
+
+.mdi-menu {
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    z-index: 11
+}
+
+.video span {
+    display: nno;
+}

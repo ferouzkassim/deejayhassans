@@ -1,0 +1,28 @@
+@media(max-width:760px) {
+    nav ul {
+        position: absolute;
+        right: 0px;
+        display: inline;
+        width: 30vw;
+        height: 100vh;
+        background-color: black;
+        z-index: 10;
+        transition: steps( 0%, 50%, 100%);
+    }
+    nav ul li {
+        text-align: center;
+    }
+    section {
+        flex-wrap: wrap
+    }
+    ;
+}
+
+@media(min-width:761px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
