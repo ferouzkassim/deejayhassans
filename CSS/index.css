@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('/img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg');
+    background-image: url('/img/feliphe-schiarolli-oeHaXN3WiLk-unsplash.jpg');
     background-position: center;
 }
 
@@ -96,7 +96,8 @@ section div {
     color: white;
 }
 
-.mdi-menu {
+.mdi-filter-variant,
+.mdi-chevron-double-up {
     position: absolute;
     top: 2vh;
     right: 2vw;

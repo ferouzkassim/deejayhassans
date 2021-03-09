@@ -1,26 +1,12 @@
-const footer = document.getElementsByTagName('footer'),
-    header = document.getElementsByTagName('header'),
+const navi = document.querySelector('#nav'),
     nav = document.querySelector('nav'),
-    navbar = document.getElementById('nav'),
-    slider = document.createElement('i'),
-    heda = document.querySelector('header');
-fnav = () => {
-    if (innerWidth <= 760) {
-        navbar.children[0].style.display = 'none';
-        nav.appendChild(slider)
-        slider.className = 'mdi mdi-menu mdi-48px'
-    } else {}
-};
-slider.onclick = () => {
-    if (this.style.display = 'none') {
-        alert('binf')
-
+    sliderbar = document.createElement('i');
+if (innerWidth <= 760) {
+    nav.appendChild(sliderbar)
+    sliderbar.classList = "mdi mdi-filter-variant mdi-48px"
+    sliderbar.onclick = () => {
+        nav.children[0].classList.toggle('show')
+        nav.children[0].style.display = ''
+        sliderbar.classList.toggle('mdi-rotate-90')
     }
 }
-domloader = (name) => {
-    nm = document.querySelector(`${name}`)
-    console.log('footer activer')
-    console.log(this.nm)
-}
-heda.onload = fnav
-heda.onload(fnav)
